@@ -14,4 +14,10 @@ function exibeInfoEstudantes(estudante, infoEstudante){
 console.log(exibeInfoEstudantes(Pessoa, 'idade'))
 console.log(exibeInfoEstudantes(Pessoa, 'cpf'));
 
+Pessoa.telefone = '21161856';
+Pessoa.cpf = '54613515';
+
+console.log(Pessoa);
+
+
 
